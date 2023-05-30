@@ -1,0 +1,148 @@
+body{
+	margin: 0px;
+	padding: 0px;
+	background: #D3D1D1;
+}
+.header{
+	display: inline-flex;
+	width: 100%;
+	height: 15%;
+	background: #BBBBBB;
+}
+#icon{
+	width: 5%;
+	height: 5%;
+	margin-top: 0.5%;
+	margin-left: 1%;
+}
+#titulo{
+	font-size: 50px;
+	margin-left: 35%;
+}
+.icono{
+	width: 100%;
+	height: 10%;
+	float: left;
+	background: #BBBBBB;
+}
+.encriptador{
+	float: left;
+	width: 60%;
+	height: 600px;
+	border-radius: 20px;
+	background: #E4E4E4;
+	margin-left: 1%;
+	margin-top: 1%;
+}
+#textoint{
+	margin: 1%;
+	width: 95%;
+	height: 95%;
+	color: #737373;
+	font-size: 15px;
+	outline: none;
+	background: #E4E4E4;
+	resize: none;
+	border: none;
+}
+.textoout{
+	margin-top: 1%;
+	float: right;
+	width: 35%;
+	height: 740px;
+	border-radius: 20px;
+	background: #E4E4E4;
+	margin-right: 2%;
+}
+#search{
+	margin-top: 3%;
+	text-align: center;
+	font-style: italic;
+	font-size: 20px;
+}
+#find{
+	margin-top: 3%;
+	display: none;
+	text-align: center;
+	font-style: italic;
+	font-size: 20px;
+}
+#cat{
+	margin-top: 5%;
+	margin-bottom: 1%;
+	padding-left: 35%;
+	width: 30%;
+	height: auto;
+}
+#textsalida{
+	margin-left: 5%;
+	margin-top: 5%;
+	margin-bottom: 1%;
+	width: 90%;
+	height: 35%;
+	resize: none;
+	outline: none;
+	border: none;
+	background: #E4E4E4;
+}
+#bntcopy{
+	width: 35%;
+	height: auto;
+	padding: 15px;
+	border-radius: 20px;
+	margin-left: 35%;
+	background: #BDBABA;
+}
+#bntcopy:hover{
+	transition: 0.1s all;
+	scale: 1.05;
+	background: #A49A9A;
+	font-weight: bold;
+}
+
+.botonera{
+	margin-top: 1%;
+	float: left;
+	width: 60%;
+	border-radius: 25px;
+	background: #E4E4E4;
+	margin-left: 1%;
+
+}
+#rules{
+	text-align: center;
+	font-style: italic;
+	font-size: 20px;
+}
+
+#bntin{
+	width: 35%;
+	height: auto;
+	padding: 15px;
+	border-radius: 20px;
+	margin-left: 14%;
+	margin-bottom: 1%;
+	background: #BDBABA;
+
+}
+#bntout{
+	width: 35%;
+	height: auto;
+	padding: 15px;
+	border-radius: 20px;
+	margin-left: 1%;
+	margin-bottom: 1%;
+	background: #BDBABA;
+}
+#bntin:hover{
+	transition: 0.1s all;
+	scale: 1.05;
+	background: #A49A9A;
+	font-weight: bold;
+}
+#bntout:hover{
+	transition: 0.1s all;
+	scale: 1.05;
+	background: #A49A9A;
+	font-weight: bold;
+}
